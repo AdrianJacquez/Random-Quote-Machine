@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#quote-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  background: white;
+  border-radius: 5px;
+  padding: 40px;
+  color: black;
+}
+#text {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.75em;
+  word-break: break-all;
+}
+#autorBox {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin: 20px;
+}
+#botones {
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#author {
+  font-size: 1em;
+  text-align: right;
+}
+#links {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+#tweet-quote {
+  color: white;
+  background-color: #242424;
+  border-radius: 10px;
+  padding: 5px;
+}
+#linkedin {
+  color: white;
+  background-color: #242424;
+  padding: 5px;
+  border-radius: 10px;
+}
+#firma {
+  color: white;
+}
